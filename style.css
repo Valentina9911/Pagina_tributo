@@ -1,0 +1,288 @@
+*{
+    padding: 2px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7E7BF;
+    font-family: 'Roboto';
+    height: 50px;
+    line-height: 20px;
+    font-size: 20px;
+    padding: 0;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    text-align: center;
+
+}
+.titulo{
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+}
+.titulo1{
+    background-color: #fff;
+    height: 300px;
+    width: 600px;
+}
+.foto{
+    width: 30%;
+}
+h1{
+    font-size: 50px; 
+}
+.navi{
+    text-align: center;
+}
+.nav ul li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 50px;
+}
+.navi{
+    padding: 5px;
+}
+.grupo{
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(auto, auto); 
+    text-align: center;
+    gap: 1em;
+}
+.michel{
+    border: solid #000;
+}
+.michel:hover{
+    background-color: #EBFF00;
+}
+.lucia{
+    border: solid #000;
+}
+.lucia:hover{
+    background-color: #EBFF00;
+}
+.iana{
+    border: solid #000;
+}
+.iana:hover{
+    background-color: #EBFF00;
+}
+.piedad{
+    border: solid #000;
+}
+.piedad:hover{
+    background-color: #EBFF00;
+}
+.yadira{
+    border: solid #000;
+}
+.yadira:hover{
+    background-color: #EBFF00;
+}
+.nicole{
+    border: solid #000;
+}
+.nicole:hover{
+    background-color: #EBFF00;
+}
+.ofelia{
+    border: solid #000;
+}
+.ofelia:hover{
+    background-color: #EBFF00;
+}
+.alejandra{
+    border: solid #000;
+}
+.alejandra:hover{
+    background-color: #EBFF00;
+}
+.melissa{
+    border: solid #000;
+}
+.melissa:hover{
+    background-color: #EBFF00;
+}
+.karolay{
+    border: solid #000;
+}
+.karolay:hover{
+    background-color: #EBFF00;
+}
+.hero{
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background: url("/descarga.jpg") center no-repeat;
+    background-size: cover;
+    background-repeat: none;
+  background-position: center;
+}
+h2{
+    background: #EBFF00;
+    text-align: center;
+}
+.container{
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px 400px 400px;
+    gap: 1em;
+    
+}
+.eli{
+    border: solid #000;
+    background: url("/eliana.png");
+}
+.eli:hover{
+    background-color: #EBFF00;
+}
+.jua{
+    border: solid #000;
+    background: url("/juanita.png");
+}
+.jua:hover{
+    background-color: #EBFF00;
+}
+.karla{
+    border: solid #000;
+    background: url("/karla.png");
+}
+.karla:hover{
+    background-color: #EBFF00;
+}
+.laura{
+    border: solid #000;
+    background: url("/laura.png");
+}
+.laura:hover{
+    background-color: #EBFF00;
+}
+.linda{
+    border: solid #000;
+    background: url("/linda.png");
+}
+.linda:hover{
+    background-color: #EBFF00;
+}
+.luisa{
+    border: solid #000;
+    background: url("/luisa.png");
+}
+.luisa:hover{
+    background-color: #EBFF00;
+}
+.maria{
+    border: solid #000;
+    background: url("/maria.png");
+}
+.maria:hover{
+    background-color: #EBFF00;
+}
+.mariav{
+    border: solid #000;
+    background: url("/mariav.png");
+    }
+.mariav:hover{
+    background-color: #EBFF00;
+}
+.orianna{
+    border: solid #000;
+    background: url("/orianna.png");
+}
+.orianna:hover{
+    background-color: #EBFF00;
+}
+.paula{
+    border: solid #000;
+    background: url("/paula.png");
+}
+.paula:hover{
+    background-color: #EBFF00;
+}
+.yesica{
+    border: solid #000;
+    background: url("/yesica.png");
+}
+.yesica:hover{
+    background-color: #EBFF00;
+}
+.bandera{
+    background: url("/escudo.png");
+}
+.color1{
+    background-color: #EBFF00;
+}
+.color1:hover{
+    background-color: #fff ;
+}
+.color2{
+    background-color: #3D54CC;
+}
+.color2:hover{
+    background-color: #fff;
+}
+.color3{
+    background-color: #FF0505;
+}
+.color3:hover{
+    background-color: #fff ;
+}
+.texto1{
+    display: flex;
+}
+.texto2{
+    display: flex;
+    height: 10%;
+}
+.texto3{
+    display: flex;
+}
+.fil{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+@media screen and (max-width: 600px){
+
+    .body{
+        background-position: 50%;
+        background-color: #000;
+    }
+}
+@media screen and (max-width: 400px){
+    header{
+        padding: 40px;
+    }
+    .body{
+        background-position: -100px;
+        background-color:#EBFF00;
+    }
+    .body .svg img{
+        width: 500px;
+    }
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+}
